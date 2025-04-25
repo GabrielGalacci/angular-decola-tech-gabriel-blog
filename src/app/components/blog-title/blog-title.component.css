@@ -1,0 +1,17 @@
+.container__blog-title {
+  color: white;
+}
+
+.container__blog-title > h1 {
+  display: flex;
+  justify-content: center;
+  color: cyan;
+  font-size: 130px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container__blog-title > hr {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
