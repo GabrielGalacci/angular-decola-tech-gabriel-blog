@@ -1,0 +1,9 @@
+.site-content__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.site-content__left, .site-content__center {
+  border-right: 1px solid white;
+}
