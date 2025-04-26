@@ -1,7 +1,15 @@
+.container__site-content {
+  margin-bottom: 20px;
+}
+
 .site-content__bottom {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+.site-content__left, .site-content__center, .site-content__right {
+  max-width: 33%;
 }
 
 .site-content__left, .site-content__center {

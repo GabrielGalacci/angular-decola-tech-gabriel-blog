@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { interestsData } from '../../pages/data/fakeData';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-interests-big-cards',
@@ -8,4 +10,12 @@ import { Component } from '@angular/core';
 })
 export class InterestsBigCardsComponent {
 
+  @Input()
+  Id:string = ""
+  @Input()
+  photoCover:string = ""
+  @Input()
+  interestTitle:string = ""
+  @Input()
+  interestDescription:string = ""
 }
