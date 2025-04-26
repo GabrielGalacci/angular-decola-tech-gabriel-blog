@@ -1,0 +1,30 @@
+.container__content {
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__cover > img {
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+
+  border: 5px solid rgb(144, 144, 144);
+  border-radius: 10px;
+}
+
+.content__description {
+  margin-top: 20px;
+}
+
+.content__description > p {
+  color: rgb(180, 180, 180);
+  text-align: center;
+  white-space: pre-line;
+}
