@@ -1,59 +1,97 @@
-# GabrielBlog
+# Gabriel Blog - Bootcamp DIO 🚀
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+## Descrição 📖
+Este projeto é um **Blog Pessoal** desenvolvido como parte do **Bootcamp da DIO**.  
+O blog foi criado utilizando **Angular**, combinando **HTML**, **CSS** e **TypeScript** para construir uma aplicação moderna, responsiva e organizada em componentes.
 
-## Development server
+No blog, apresento um pouco sobre mim e compartilho meus gostos pessoais, como **músicas**, **jogos** e **filmes** favoritos!
 
-To start a local development server, run:
+## Funcionalidades ✨
+- Página inicial com título do blog e introdução pessoal.
+- Seção "Sobre Mim" detalhando minha história e interesses.
+- Listagem de:
+  - 🎵 Músicas favoritas
+  - 🎮 Jogos favoritos
+  - 🎬 Filmes preferidos
+- Navegação entre páginas através do **Angular Router**.
+- Estrutura modularizada em componentes reutilizáveis.
 
+## Tecnologias Utilizadas 🛠️
+- [Angular](https://angular.io/)
+- HTML5
+- CSS3
+- TypeScript
+
+## Estrutura de Pastas 📂
+```
+src/
+└── app/
+    ├── components/
+    │   ├── about-me-card/          # Cartão sobre mim
+    │   ├── blog-title/              # Título do blog
+    │   ├── cards/                   # Cards Genéricos
+    │   ├── interests-big-cards/     # Card para interesses
+    │   └── menu-bar/                # Barra de navegação
+    ├── pages/
+    │   ├── about-me/                # Página Sobre Mim
+    │   └── content/                 # Páginas de Conteúdo
+    │       ├── films-content/       # Seção de Filmes
+    │       ├── games-content/       # Seção de Jogos
+    │       └── music-content/       # Seção de Músicas
+    ├── data/                        # Dados mockados de apoio
+    ├── home/                        # Página inicial
+    ├── app.component.css            # Estilos principais
+    ├── app.component.html           # Template principal
+    ├── app.component.ts             # Componente principal
+    ├── app.config.ts                # Configurações gerais
+    └── app.routes.ts                # Definições de rotas
+```
+
+## Como Rodar o Projeto 🚀
+
+### Pré-requisitos
+- [Node.js](https://nodejs.org/en/) instalado
+- [Angular CLI](https://angular.io/cli) instalado globalmente
+
+Instalar o Angular CLI:
+```bash
+npm install -g @angular/cli
+```
+
+### Instalação
+Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+Acesse a pasta do projeto:
+```bash
+cd nome-do-projeto
+```
+
+Instale as dependências:
+```bash
+npm install
+```
+
+### Executar Aplicação
 ```bash
 ng serve
 ```
+Depois, acesse no navegador:  
+**http://localhost:4200/**
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Melhorias Futuras 🔮
+- Integração com APIs externas de músicas, jogos e filmes.
+- Página de contato com formulário.
+- Adição de tema escuro/claro.
+- Melhorar responsividade em dispositivos móveis.
 
-## Code scaffolding
+## Autor 👨‍💻
+Feito com ❤️ por **Gabriel Galacci Maldonado**.  
+- [GitHub](https://github.com/GabrielGalacci)
+- [LinkedIn](https://www.linkedin.com/in/gabriel-galacci-maldonado/)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Opiniões
+- Opiniões são bem-vindas
+- Obrigado por acompanhar meu Projeto, Caso queira me contate por qualquer um dos links apresentados acima
