@@ -1,7 +1,9 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
-import { ContentComponent } from './pages/content/content.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { MusicContentComponent } from './pages/content/music-content/music-content.component';
+import { FilmsContentComponent } from './pages/content/films-content/films-content.component';
+import { GamesContentComponent } from './pages/content/games-content/games-content.component';
 
 export const routes: Routes = [
   {
@@ -13,7 +15,15 @@ export const routes: Routes = [
     component:AboutMeComponent
   },
   {
-    path: 'content/:id',
-    component:ContentComponent
+    path: 'music/:id',
+    component:MusicContentComponent
+  },
+  {
+    path: 'films/:id',
+    component:FilmsContentComponent
+  },
+  {
+    path: 'games/:id',
+    component: GamesContentComponent
   }
 ];

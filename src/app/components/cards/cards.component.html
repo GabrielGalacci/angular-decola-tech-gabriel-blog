@@ -1,6 +1,6 @@
 <div class="container__cards">
   <div class="cards__content">
-    <h1>{{ cardTitle }}</h1>
+    <h1><a [routerLink]="[contentUrl, Id]">{{ cardTitle }}</a></h1>
     <img src="{{ photoCover }}" alt="">
     <p>{{ cardDescription }}</p>
   </div>

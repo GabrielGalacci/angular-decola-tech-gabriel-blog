@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-.about-me-card__content > img {
+.about-me-card__content > a > img {
   width: 300px;
   border: 5px solid #bbb;
   border-radius: 20px;
