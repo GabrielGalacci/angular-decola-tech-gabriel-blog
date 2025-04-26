@@ -4,9 +4,16 @@
   box-sizing: border-box;
   background-color: #222222;
   color: white;
-  font-family: 'Segoe UI';
+}
+
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', sans-serif;
 }

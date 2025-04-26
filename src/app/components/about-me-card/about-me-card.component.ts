@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { HtmlParser } from '@angular/compiler';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-about-me-card',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './about-me-card.component.css'
 })
 export class AboutMeCardComponent {
+  @Input()
+  photoCover:string = ""
 
+  @Input()
+  aboutInfo:string = ""
 }
